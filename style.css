@@ -78,6 +78,35 @@ main > img {
 
 }
 
+#flex_around {
+    display : flex;
+    justify-content: space-around;
+    align-items : center;
+    padding : 15px;
+    
+    margin : 20px;
+    
+    border: 1px solid black;
+}
+
+.flex_item {
+    padding : 15px;
+    
+    margin : 20px;
+    
+    border: 1px solid black;
+}
+
+#flex_between { 
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    padding : 15px;
+    
+    margin : 20px;
+    
+    border: 1px solid black;
+}
 
 body {
     background-color: black;
